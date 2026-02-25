@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+	char ad[30];
+	char soyad[30];
+	int yas;
+	float boy;
+	float ceki;
+	printf ("adiniz soyadiniz yasinizi boyunuzu ve cekinizi daxil edin: %s,%s,%d,%f,%f",ad,soyad,yas,boy,ceki);
+	scanf("%s,%s,%d,%f,%f,&ad,&soyad,&yas,&boy,&ceki" );
+	printf("sizin adiniz= %s, sizin soyadiniz=%s, sizin yasiniz=%d, sizin boyunuz=%f, sizin cekiniz=%f ");
+}
