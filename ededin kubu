@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+	int x,kub;
+	printf("Ededi daxil edin: ");
+	scanf("%d",&x);
+	 kub =x*x*x;
+	printf("Ededin kubu: %d\n",kub);
+	return 0;
+	
+}
