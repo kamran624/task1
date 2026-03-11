@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+int eded,cem=0;
+printf("ededi daxil edin:");
+scanf("%d",&eded);
+while (eded !=0){
+cem+= eded %10;
+eded =eded/ 10;
+}
+printf("Reqemlerin cemi =%d\n",cem);
+return 0;
+}
